@@ -1,0 +1,24 @@
+<!--Merch Section-->
+    <section id="merch" class="merch-section bg-black">
+        <div class="row justify-content-center no-gutters">
+            <div class="row">
+                <img class="img-fluid" src="img/merch-Hoodie-IO.png" alt="">
+            </div>
+            <div class="col-lg-6 order-lg-first">
+                <div class="bg-black text-center h-100 merch">
+                    <div class="d-flex h-100">
+                        <div class="merch-text w-100 my-auto text-center text-lg-left">
+                            <h4 class="text-white text-center">
+                                <u>I/O</u>
+                            </h4>
+                            <p class="mb-0 text-white-50 ">The purpose of IO merchandise is to display a product that is visually appealing to me while still being affordable and durable for daily use. IO was inspired by the experiences I went through learning and developing front
+                                end developement and represent how simplicity can still be attractive. I hope you enjoy this product, and I look forward to sharing more from this line. To order IO hoodie click <a href="mailto:johnnypr11@icloud.com?subject=Request to purchase IO hoodie">here</a>.
+                            </p>
+                            <hr class="d-none d-lg-block mb-0 mr-0">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
