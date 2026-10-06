@@ -125,7 +125,7 @@
             </div>
 
             <!-- Project Two Row -->
-            <div class="row justify-content-center no-gutters">
+            <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
                 <div class="col-lg-6">
                     <img class="img-fluid" src="img/field_crop_fair_data_demonstrator_logo.png" alt="">
                 </div>
@@ -135,6 +135,42 @@
                             <div class="project-text w-100 my-auto text-center text-lg-right">
                                 <h4 class="text-white"><a href = "http://fc-fair.dill-picl.org">Fair Data Demonstrator</a></h4>
                                 <p class="mb-0 text-white-50">Demonstration of FAIR data principles applied to crop field trial data. The tool makes maize phenomic field trial data from the Genomes To Fields Initiative accessible and findable through the search interface below.</p>
+                                <hr class="d-none d-lg-block mb-0 mr-0">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project Three Row -->
+            <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
+                <div class="col-lg-6">
+                    <img class="img-fluid" src="img/edgar-text-signals.png" alt="Heatmap of year-over-year Risk Factors similarity for 12 semiconductor companies">
+                </div>
+                <div class="col-lg-6">
+                    <div class="bg-black text-center h-100 project">
+                        <div class="d-flex h-100">
+                            <div class="project-text w-100 my-auto text-center text-lg-left">
+                                <h4 class="text-white"><a href="https://github.com/johnnypr/edgar-text-signals">SEC 10-K Text Signals</a></h4>
+                                <p class="mb-0 text-white-50">NLP on 152 semiconductor 10-Ks pulled from the SEC EDGAR API: Loughran-McDonald tone and year-over-year cosine similarity (&ldquo;Lazy Prices&rdquo;), joined in DuckDB SQL to forward returns and XBRL revenue. Finding: Risk Factors sections doubled since 2015 (median 7.4k &rarr; 15.2k words), yet year-over-year cosine similarity stays ~0.98: firms mostly copy-paste.</p>
+                                <hr class="d-none d-lg-block mb-0 ml-0">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project Four Row -->
+            <div class="row justify-content-center no-gutters">
+                <div class="col-lg-6">
+                    <img class="img-fluid" src="img/cfpb-complaint-signals.png" alt="Weekly Cash App complaints around the January 2025 CFPB order, split into template and other complaints">
+                </div>
+                <div class="col-lg-6 order-lg-first">
+                    <div class="bg-black text-center h-100 project">
+                        <div class="d-flex h-100">
+                            <div class="project-text w-100 my-auto text-center text-lg-right">
+                                <h4 class="text-white"><a href="https://github.com/johnnypr/cfpb-complaint-signals">CFPB Complaint Signals</a></h4>
+                                <p class="mb-0 text-white-50">TF-IDF + NMF topic modeling on 356K CFPB complaint narratives for 10 banks and fintechs, rolled up into quarterly alternative-data signals in DuckDB SQL. Finding: Cash App&rsquo;s 36x complaint spike in Q1 2025 was 77% one copy-paste template, starting the week of the CFPB&rsquo;s enforcement order.</p>
                                 <hr class="d-none d-lg-block mb-0 mr-0">
                             </div>
                         </div>
